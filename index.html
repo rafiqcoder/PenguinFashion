@@ -17,7 +17,10 @@
         <nav class="navbar flex justify-between items-center h-24">
             <img src="images/logo.png" alt="" class="sm:w-72 w-5/12">
             <div class="h_right">
-                <ul class="menu flex justify-end items-center content-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:hidden block mr-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+                <ul class="menu justify-end items-center content-center hidden md:flex">
                     <li class="list-item sm:text-lg text-gray-600 font-bold px-2">Home</li>
                     <li class="list-item sm:text-lg text-gray-600 font-bold px-2">Product</li>
                     <li class="list-item sm:text-lg text-gray-600 font-bold px-2">About Us</li>
@@ -50,16 +53,145 @@
     <!---=======================================================               Catalogue Area  START  
      =====================================================----->
     
-    <section class="catalouge_area container">
+    <section class="catalouge_area sm:container mx-5 sm:mx-auto">
         <!-------- Woman  START ---------->
-        <div class="woman_jacket">
-            Woman Jacket 
+        <div class="woman_jacket my-5">
+            <h1 class="man_jacket sm:text-4xl text-2xl text-center sm:text-left uppercase font-bold py-10 mt-2">Woman Jacket </h1>
+           <div class="w_cats grid md:grid-cols-3 sm:grid-cols-2 gap-4">
+            <div class="card shadow-lg p-3 rounded-lg">
+                <img src="images/jacket-1.png" alt="product image" class="w-full rounded-lg">
+                <h2 class="text-xl capitalize font-bold text-left">Yellow coat jacket</h2>
+                
+                    <p class="text-sm text-gray-400 w-11/12 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis magni magnam cupiditate a? Nobis, corporis!</p>
+                    
+                    <div class="card_footer flex justify-between">
+                        <span class="price text-orange-400 text-2xl font-bold">$231</span>
+                        <button class="p-3 uppercase text-white bg-lime-600 rounded-lg px-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>Buy now</button>
+                    </div>
+            </div>
+            <div class="card shadow-lg p-3">
+                <img src="images/jacket-3.png" alt="product image" class="w-full rounded-lg">
+                <h2 class="text-xl capitalize font-bold text-left">Yellow coat jacket</h2>
+                
+                    <p class="text-sm text-gray-400 w-11/12 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis magni magnam cupiditate a? Nobis, corporis!</p>
+                    
+                    <div class="card_footer flex justify-between">
+                        <span class="price text-orange-400 text-2xl font-bold">$231</span>
+                        <button class="p-3 uppercase text-white bg-lime-600 rounded-lg px-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>Buy now</button>
+                    </div>
+            </div>
+            <div class="card shadow-lg p-3">
+                <img src="images/jacket-2.png" alt="product image" class="w-full rounded-lg">
+                <h2 class="text-xl capitalize font-bold text-left">Yellow coat jacket</h2>
+                
+                    <p class="text-sm text-gray-400 w-11/12 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis magni magnam cupiditate a? Nobis, corporis!</p>
+                    
+                    <div class="card_footer flex justify-between">
+                        <span class="price text-orange-400 text-2xl font-bold">$231</span>
+                        <button class="p-3 uppercase text-white bg-lime-600 rounded-lg px-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>Buy now</button>
+                    </div>
+            </div>
+            
+           </div>
         </div>
         <!-------- Woman FINISHED ----------->
+        <!-------- man  START ---------->
+        <div class="woman_jacket my-5">
+            <h1 class="man_jacket sm:text-4xl text-2xl text-center sm:text-left uppercase font-bold py-10 mt-2">man Jacket </h1>
+           <div class="w_cats grid md:grid-cols-3 sm:grid-cols-2 gap-4">
+            <div class="card shadow-lg p-3 rounded-lg">
+                <img src="images/jacket-4.png" alt="product image" class="w-full rounded-lg">
+                <h2 class="text-xl capitalize font-bold text-left">Yellow coat jacket</h2>
+                
+                    <p class="text-sm text-gray-400 w-11/12 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis magni magnam cupiditate a? Nobis, corporis!</p>
+                    
+                    <div class="card_footer flex justify-between">
+                        <span class="price text-orange-400 text-2xl font-bold">$231</span>
+                        <button class="p-3 uppercase text-white bg-lime-600 rounded-lg px-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>Buy now</button>
+                    </div>
+            </div>
+            <div class="card shadow-lg p-3">
+                <img src="images/jacket-5.png" alt="product image" class="w-full rounded-lg">
+                <h2 class="text-xl capitalize font-bold text-left">Yellow coat jacket</h2>
+                
+                    <p class="text-sm text-gray-400 w-11/12 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis magni magnam cupiditate a? Nobis, corporis!</p>
+                    
+                    <div class="card_footer flex justify-between">
+                        <span class="price text-orange-400 text-2xl font-bold">$231</span>
+                        <button class="p-3 uppercase text-white bg-lime-600 rounded-lg px-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>Buy now</button>
+                    </div>
+            </div>
+            <div class="card shadow-lg p-3">
+                <img src="images/jacket-6.png" alt="product image" class="w-full rounded-lg">
+                <h2 class="text-xl capitalize font-bold text-left">Yellow coat jacket</h2>
+                
+                    <p class="text-sm text-gray-400 w-11/12 my-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis magni magnam cupiditate a? Nobis, corporis!</p>
+                    
+                    <div class="card_footer flex justify-between">
+                        <span class="price text-orange-400 text-2xl font-bold">$231</span>
+                        <button class="p-3 uppercase text-white bg-lime-600 rounded-lg px-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                          </svg>Buy now</button>
+                    </div>
+            </div>
+            
+           </div>
+        </div>
+        <!-------- man FINISHED ----------->
     </section>
     
     <!--- ==========  Catalogue Area  FINISHED =========  ---->
 
+    <!---=======================================================   
+               Footer top  START  
+     =====================================================----->
+    
+    <section class="footer_top sm:container mx-5 grid grid-cols-2 gap-x-5 items-center mt-10">
+        <div class="f-left grid grid-rows-3 gap-y-2 rounded-lg">
+            <div class="hrzn_card py-3 px-4 flex items-center space-x-3 shadow-lg my-2 rounded-lg">
+                <img src="icons/image 12.png" alt="img" class="hrzn-left h-20">
+                <div class="hrzn_right flex flex-col">
+                    <h3 class="text-xl capitalize py-2 text-left">Find the perfect fit</h3>
+                    <p class="text-sm text-gray-400 w-11/12">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, magnam!
+                    </p>
+                </div>
+             </div>
+            <div class="hrzn_card py-3 px-4 flex items-center space-x-3 shadow-lg my-2 rounded-lg">
+                <img src="icons/image 12.png" alt="img" class="hrzn-left h-20">
+                <div class="hrzn_right flex flex-col">
+                    <h3 class="text-xl capitalize py-2 text-left">Find the perfect fit</h3>
+                    <p class="text-sm text-gray-400 w-11/12">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, magnam!
+                    </p>
+                </div>
+             </div>
+            <div class="hrzn_card py-3 px-4 flex items-center space-x-3 shadow-lg my-2 rounded-lg">
+                <img src="icons/image 12.png" alt="img" class="hrzn-left h-20">
+                <div class="hrzn_right flex flex-col">
+                    <h3 class="text-xl capitalize py-2 text-left">Find the perfect fit</h3>
+                    <p class="text-sm text-gray-400 w-11/12">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, magnam!
+                    </p>
+                </div>
+             </div>
+             
+        </div>
+        <img src="images/shopping.png" alt="" class="footer_t_right_img">
+        
+    </section>
+    
+    <!--- ============  Footer top  FINISHED ===========  ---->
       <script>
         tailwind.config = {
           theme: {
