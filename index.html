@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Penguine Shop</title>
+</head>
+<body class="">
+    <!---=======================================================   
+                 Header and Nave Area  START  
+     =====================================================----->
+    
+    <header class="header container mx-auto">
+        <!-------- Navbaer  START ---------->
+        <nav class="navbar flex justify-between items-center h-24">
+            <img src="images/logo.png" alt="" class="sm:w-72 w-5/12">
+            <div class="h_right">
+                <ul class="menu flex justify-end items-center content-center">
+                    <li class="list-item sm:text-lg text-gray-600 font-bold px-2">Home</li>
+                    <li class="list-item sm:text-lg text-gray-600 font-bold px-2">Product</li>
+                    <li class="list-item sm:text-lg text-gray-600 font-bold px-2">About Us</li>
+                    <li class="list-item sm:text-lg text-gray-600 font-bold px-2">Contact us</li>
+                </ul>
+            </div>
+        </nav>
+        <!-------- Navbaer FINISHED ----------->
+
+        <!-------- Banner Area  START ---------->
+        <div class="hero_area sm:flex content-center items-center">
+            <div class="hero_left sm:w-1/2 text-center sm:text-left my-5">
+                <h1 class="sm:text-7xl text-3xl uppercase font-bold text-orange-300">Be the peinguins <span class="text-black block sm:mt-2">of winter</span></h1>
+                <p class="text-sm text-gray-400 my-4 w-1/2 sm:w-11/12 m-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, nostrum. Lorem ipsum dolor sit amet.</p>
+                <button class="p-5 uppercase text-white bg-lime-600 rounded-lg px-7"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                  </svg>Buy now</button>
+            </div>
+            <div class="right-img sm:w-1/2">
+                <img src="images/model.png" alt="" class="sm:w-full mx-auto">
+            </div>
+
+        </div>
+
+        <!-------- Banner Area FINISHED ----------->
+    </header>
+    
+    <!--- ============  Header and Nave Area  FINISHED ===========  ---->
+
+    <!---=======================================================               Catalogue Area  START  
+     =====================================================----->
+    
+    <section class="catalouge_area container">
+        <!-------- Woman  START ---------->
+        <div class="woman_jacket">
+            Woman Jacket 
+        </div>
+        <!-------- Woman FINISHED ----------->
+    </section>
+    
+    <!--- ==========  Catalogue Area  FINISHED =========  ---->
+
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>
